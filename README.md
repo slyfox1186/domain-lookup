@@ -1,6 +1,8 @@
 # Domain Lookup Script
 
-The Domain Lookup Script is a comprehensive Python tool for retrieving domain information. It leverages the `python-whois` module to collect details about domain names and offers features like IP lookup, geolocation, SSL certificate details, and more.
+The Domain Lookup Script is a comprehensive Python tool for retrieving domain information.
+
+It leverages the `python-whois` module to collect details about domain names and offers features like IP lookup, geolocation, SSL certificate details, and more.
 
 ## Features
 
@@ -31,6 +33,10 @@ The Domain Lookup Script is a comprehensive Python tool for retrieving domain in
 
 ```bash
 pip install python-whois requests
+```
+Or use the APT package manager
+```bash
+apt install python3-whois
 ```
 
 ## Usage
