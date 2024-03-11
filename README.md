@@ -1,44 +1,53 @@
 # Domain Lookup Script
 
-The Domain Lookup Script is a Python tool that allows you to retrieve comprehensive information about domain names. It utilizes the `python3-whois` module to gather domain details and provides additional features such as IP address lookup, geolocation information, SSL certificate details, and more.
+The Domain Lookup Script is a comprehensive Python tool for retrieving domain information. It leverages the `python3-whois` module to collect details about domain names and offers features like IP lookup, geolocation, SSL certificate details, and more.
 
 ## Features
-- Retrieves domain information using the `python3-whois` module
-- Checks domain availability for registration
-- Displays registrant name, organization, and registrar details
-- Provides creation, expiration, and updated dates for the domain
-- Lists name servers associated with the domain
-- Retrieves IP address and performs reverse IP lookup
-- Fetches geolocation information for the IP address
-- Retrieves SSL certificate details, including validity period
-- Fetches HTTP header information
-- Retrieves Alexa traffic rank for the domain
-- Calculates domain age based on creation date
-- Supports verbose mode for additional domain details
-- Allows saving results to an output file
+
+- **Domain Information**: Utilizes `python3-whois` for domain data.
+- **Availability Check**: Checks if a domain is available for registration.
+- **Registrant Details**: Displays name, organization, and registrar.
+- **Domain Dates**: Shows creation, expiration, and update dates.
+- **Name Servers**: Lists domain's associated name servers.
+- **IP and Geolocation**: Performs IP lookup and fetches geolocation.
+- **SSL Certificate**: Retrieves SSL certificate validity details.
+- **HTTP Headers**: Fetches HTTP header information.
+- **Alexa Rank**: Retrieves Alexa traffic rank.
+- **Domain Age**: Calculates age from the creation date.
+- **Verbose Mode**: Offers detailed domain information.
+- **Output File**: Option to save results to a file.
 
 ## Requirements
-- Python 3.x
-- `python3-whois` module
-- `requests` module
+
+- **Python 3.x**
+- **Pip Modules**:
+  - `python3-whois`
+  - `requests`
+
+```bash
+pip install --user python-whois requests
+```
 
 ## Installation
-Clone the repository or download the script file. Install the required dependencies using pip:
+
+1. Clone the repository or download the script file.
+2. Install the required dependencies:
 
 ```bash
 pip install python3-whois requests
 ```
 
 ## Usage
-To use the Domain Lookup Script, open a terminal or command prompt and navigate to the directory where the script is located. Then, run the script with the following command:
+
+Run the script from a terminal or command prompt. Navigate to the script's directory and execute:
 
 ```bash
 python domain_lookup.py <domain/subdomain> [-v] [-o output_file]
 ```
 
-- `<domain/subdomain>`: Specify one or more domain names or subdomains to lookup, separated by spaces.
-- `-v` (optional): Enable verbose mode to display additional domain details.
-- `-o output_file` (optional): Specify the output file name to save the results.
+- `<domain/subdomain>`: Domain or subdomains to lookup.
+- `-v` (optional): Enables verbose mode for more details.
+- `-o output_file` (optional): Saves results to the specified file.
 
 ### Examples
 
@@ -49,28 +58,30 @@ python domain_lookup.py example.com -o results.txt
 ```
 
 ## Output
-The script will display the domain information for each specified domain, including:
-- Domain name and availability status
-- Registrant name, organization, and registrar details
-- Creation, expiration, and updated dates
-- Name servers
-- IP address and reverse IP lookup
-- Geolocation information
-- SSL certificate details
-- HTTP header information
-- Alexa traffic rank
-- Domain age
 
-If verbose mode is enabled, additional domain details will be displayed. If an output file is specified, the results will be saved to the specified file.
+The script displays information for each domain, including:
+
+- Domain name, availability status, and age
+- Registrant, organization, and registrar details
+- Dates: creation, expiration, update
+- Name servers, IP address, reverse IP lookup
+- Geolocation, SSL certificate details
+- HTTP headers, Alexa traffic rank
+
+Verbose mode reveals additional details. Specifying an output file saves the results accordingly.
 
 ## Logging
-The script includes logging functionality to capture relevant information during execution. Logs are displayed in the console and include timestamps, log levels, and messages for better tracking and debugging.
+
+Incorporates logging for execution tracking, including timestamps, log levels, and messages, aiding in debugging and information tracking.
 
 ## Error Handling
-The script incorporates error handling to gracefully handle potential issues and provide informative error messages. If an error occurs during domain processing, an error message will be logged, and the script will continue processing the remaining domains.
+
+Implements error handling for graceful failures and informative error messaging, ensuring the script continues with remaining domains after encountering an error.
 
 ## Contributing
-Contributions to the Domain Lookup Script are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request on the GitHub repository.
+
+Contributions are welcome! For bugs or feature suggestions, please open an issue or submit a pull request on GitHub.
 
 ## License
-This script is released under the MIT License.
+
+Released under the MIT License.
