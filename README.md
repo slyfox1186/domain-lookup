@@ -6,18 +6,18 @@ It leverages the `python-whois` module to collect details about domain names and
 
 ## Features
 
-- **Domain Information**: Utilizes `python-whois` for domain data.
-- **Availability Check**: Checks if a domain is available for registration.
-- **Registrant Details**: Displays name, organization, and registrar.
-- **Domain Dates**: Shows creation, expiration, and update dates.
-- **Name Servers**: Lists domain's associated name servers.
-- **IP and Geolocation**: Performs IP lookup and fetches geolocation.
-- **SSL Certificate**: Retrieves SSL certificate validity details.
-- **HTTP Headers**: Fetches HTTP header information.
 - **Alexa Rank**: Retrieves Alexa traffic rank.
+- **Availability Check**: Checks if a domain is available for registration.
 - **Domain Age**: Calculates age from the creation date.
-- **Verbose Mode**: Offers detailed domain information.
+- **Domain Dates**: Shows creation, expiration, and update dates.
+- **Domain Information**: Utilizes `python-whois` for domain data.
+- **HTTP Headers**: Fetches HTTP header information.
+- **IP and Geolocation**: Performs IP lookup and fetches geolocation.
+- **Name Servers**: Lists domain's associated name servers.
 - **Output File**: Option to save results to a file.
+- **Registrant Details**: Displays name, organization, and registrar.
+- **SSL Certificate**: Retrieves SSL certificate validity details.
+- **Verbose Mode**: Offers detailed domain information.
 
 ## Requirements
 
