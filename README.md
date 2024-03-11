@@ -42,9 +42,10 @@ apt install python3-whois
 ## Usage
 
 Run the script from a terminal or command prompt. Navigate to the script's directory and execute:
+  - You can pass multiple domains to the script
 
 ```bash
-python3 domain_lookup.py <domain/subdomain> [-v] [-o output_file]
+python3 domain_lookup.py <domain> <subdomain.domain> [-v] [-o output_file]
 ```
 
 - `<domain/subdomain>`: Domain or subdomains to lookup.
