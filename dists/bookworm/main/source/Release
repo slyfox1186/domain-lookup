@@ -1,0 +1,5 @@
+Component: main
+Origin: Jeff Hollis
+Label: domain-lookup
+Architecture: source
+Description: A quick and easy way to get information about domains

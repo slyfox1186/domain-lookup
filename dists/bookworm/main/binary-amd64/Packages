@@ -1,0 +1,16 @@
+Package: domain-lookup
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Jeff Hollis <jhollis.ga@gmail.com>
+Installed-Size: 25
+Depends: python3:any, python3-whois, python3-requests
+Priority: optional
+Section: utils
+Filename: pool/main/d/domain-lookup/domain-lookup_1.0.0-1_all.deb
+Size: 4092
+SHA256: ea6eeb665262065391b99e30fe7a7a0df1edc88c6d711386da4a8ada9c4fd16d
+SHA1: 01a4dacfcd65edfb76fbc8888b6e9a2ea5f8a368
+MD5sum: 0c7c0bffe514938dcad1dd2df1542b12
+Description: Domain lookup utility
+ A command-line utility for retrieving comprehensive information about domain names.
+

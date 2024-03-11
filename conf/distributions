@@ -1,0 +1,7 @@
+Origin: Jeff Hollis
+Label: domain-lookup
+Codename: bookworm
+Architectures: amd64 source
+Components: main
+Description: A quick and easy way to get information about domains
+SignWith: yes
