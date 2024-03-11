@@ -24,10 +24,6 @@ The Domain Lookup Script is a comprehensive Python tool for retrieving domain in
   - `python-whois`
   - `requests`
 
-```bash
-pip install --user python-whois requests
-```
-
 ## Installation
 
 1. Clone the repository or download the script file.
