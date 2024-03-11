@@ -64,12 +64,12 @@ python3 domain_lookup.py example.com -o results.txt
 
 The script displays information for each domain, including:
 
-- Domain name, availability status, and age
-- Registrant, organization, and registrar details
 - Dates: creation, expiration, update
-- Name servers, IP address, reverse IP lookup
+- Domain name, availability status, and age
 - Geolocation, SSL certificate details
 - HTTP headers, Alexa traffic rank
+- Name servers, IP address, reverse IP lookup
+- Registrant, organization, and registrar details
 
 Verbose mode reveals additional details. Specifying an output file saves the results accordingly.
 
