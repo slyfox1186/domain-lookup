@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: Jeff Hollis
 Label: domain-lookup
 Codename: bookworm
-Date: Mon, 11 Mar 2024 15:03:45 UTC
+Date: Mon, 11 Mar 2024 16:27:57 UTC
 Architectures: amd64
 Components: main
 Description: A quick and easy way to get information about domains
@@ -31,17 +31,17 @@ SHA256:
  8d39d84dccb07989ae3d1f82799608605d02ac52b03fe6643cfe9311c6d8b21a 145 main/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEtAl3eydsoHjp1wknPSHak0oIHZgFAmXvHVEACgkQPSHak0oI
-HZgmwRAAi9VV5bji14xVlpTghkCrkTfT3HutJjuWkaxtUj4VYCgc7kzo8BP5ujyk
-nqdUcIEWV6f2wnTu6XRASTK8RBSfQ02f/uht+E0UX3cHSbMuFz2ZwiC3SnvyQDPO
-pgxl83G3k/sLymbvvGbyFikT/vHMkYupeWyZMSzD5OjzKpizaCgyg9+5wiFdXEGJ
-E14az0vNxowAtoExqB2xfZEFU6jAncfGZBaffN0sSI3p1ERFjhavDK4QM6+lNgiz
-mxGGKSu8ui8wSu74Jw+TsRyGBlvzm3ScBN7vi1HNMkNuGAK3vPnP9ckxrXcdUsVJ
-GJeUBU3vzkk4exTfeiYK1XO4FAvWUeHWPr7OFZVuwhzHhWCe1QxppMVHBtoiwgdp
-e4pasIFa79jDqGlJWDk+b6r76A559h4hM0HSXYrWYr31V5iAQ0nO+D2dkqa6xGr4
-k7hXJwlmh6WnRANHpchcyoXZB4M7toiN9tkYntDuHSG3ZnEYFqV+dbqMw3Kp3MmW
-9uGTT3ejbIIXUdMJcPrHKX8HpYI2KbXmsOeLF/Sc4rIHexMAq2VBX75osSb//60D
-2Dq5UEvrIE0nQitCe2KDsYnLODJP+0jgYsxSieTBL//QHMuZVCkvRuuX++SA75gn
-BIdswZsRR1/2AShlgdgukzMyWuA7rCBz2xKqoZZLQzQUDLSUbc8=
-=rj7e
+iQIzBAEBCgAdFiEEtAl3eydsoHjp1wknPSHak0oIHZgFAmXvMQ0ACgkQPSHak0oI
+HZiuKA//fb43aUYaI1bq2T78rjjzm/wNlK4v+DttdbXMBhCoELOhii6i/FrNo7of
+a1+AG+TjditU03RK6GSRI5WlkYnNrGSVnRyOCYlsO1MVWeXzDrzrU3Gd80vMKyDm
+IndEZAv0YwmOzWNnz1DfaavUcKL4hiqs/RWpacu4jkSJbkp9FkDl+MnMQMQdwC5G
+SRpWm6bRBkWqanEFQZm4o9Bj83tucTNu2GxZhfpIiSorsZ3zUWXWEniXP2Ghvnzx
+13efQHClwi4Nehr2+KQnuql8JMwZr0qDHKdtaLvyHRin7GNQxTHCIzzV4QcNdCuc
+wjlYkTrfxOIaewscHxPchA1oEQ0pu93rcIeRemqEZ/1HLqxtU3UkxkrQtLzYI3fD
+A5Ssc34VGnSp64iids8xH+7/TKWJ2H8goJjgoQD1gebA6yO/n2MIXjGTUmvpl6tN
+aT+lxPBp7BdnfQGKJHi6yXjA6AM3nYIVTa6LvxsJwwxZzQLgamzuukrxv1bn5wL2
+UK6yT1G26Ebv/CAuH2Ha99RLwR9L+5Lkp8uHfWFse1udjInS64QOL1teDFO4xyrj
+i6+yiIwvRFf0ZbUxTwbVDpr9Bg3e1TmPLd9AZrJOV4MJLWxC4Nmd0tz6XIM2H9Lo
+tn11WdKqctbEGeYUhCCHr+Soxr3dHNuCc6oe/osl9MUYmMqg+XY=
+=nvMU
 -----END PGP SIGNATURE-----

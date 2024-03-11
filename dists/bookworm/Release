@@ -1,7 +1,7 @@
 Origin: Jeff Hollis
 Label: domain-lookup
 Codename: bookworm
-Date: Mon, 11 Mar 2024 15:03:45 UTC
+Date: Mon, 11 Mar 2024 16:27:57 UTC
 Architectures: amd64
 Components: main
 Description: A quick and easy way to get information about domains
