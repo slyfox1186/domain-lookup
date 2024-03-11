@@ -1,6 +1,0 @@
-domain_lookup.py
-setup.py
-domain_lookup.egg-info/PKG-INFO
-domain_lookup.egg-info/SOURCES.txt
-domain_lookup.egg-info/dependency_links.txt
-domain_lookup.egg-info/top_level.txt

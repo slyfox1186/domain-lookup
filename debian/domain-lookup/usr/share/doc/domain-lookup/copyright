@@ -1,7 +1,0 @@
-Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: domain-lookup
-Source: https://github.com/yourusername/domain-lookup
-
-Files: *
-Copyright: 2024 Jeff Hollis <jhollis.ga@gmail.com>
-License: MIT
