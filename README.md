@@ -21,8 +21,8 @@ It leverages the `python-whois` module to collect details about domain names and
 
 ## Requirements
 
-- **Python 3.x**
-- **Pip Modules**:
+- Python 3.x
+- Pip Modules:
   - `python-whois`
   - `requests`
 
@@ -44,7 +44,7 @@ apt install python3-whois
 Run the script from a terminal or command prompt. Navigate to the script's directory and execute:
 
 ```bash
-python domain_lookup.py <domain/subdomain> [-v] [-o output_file]
+python3 domain_lookup.py <domain/subdomain> [-v] [-o output_file]
 ```
 
 - `<domain/subdomain>`: Domain or subdomains to lookup.
@@ -54,9 +54,9 @@ python domain_lookup.py <domain/subdomain> [-v] [-o output_file]
 ### Examples
 
 ```bash
-python domain_lookup.py example.com
-python domain_lookup.py example.com subdomain.example.com -v
-python domain_lookup.py example.com -o results.txt
+python3 domain_lookup.py example.com
+python3 domain_lookup.py example.com subdomain.example.com -v
+python3 domain_lookup.py example.com -o results.txt
 ```
 
 ## Output
