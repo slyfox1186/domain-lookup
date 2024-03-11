@@ -1,0 +1,12 @@
+Source: domain-lookup
+Section: utils
+Priority: optional
+Maintainer: Jeff Hollis <jhollis.ga@gmail.com>
+Build-Depends: debhelper (>= 10), python3, dh-python, python3-setuptools, python3-wheel, python3-whois
+Standards-Version: 4.5.0
+
+Package: domain-lookup
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}, python3-whois, python3-requests
+Description: Domain lookup utility
+ A command-line utility for retrieving comprehensive information about domain names.

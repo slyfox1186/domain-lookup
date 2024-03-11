@@ -1,0 +1,10 @@
+Package: domain-lookup
+Version: 1.0.0-1
+Architecture: all
+Maintainer: Jeff Hollis <jhollis.ga@gmail.com>
+Installed-Size: 25
+Depends: python3:any, python3-whois, python3-requests
+Section: utils
+Priority: optional
+Description: Domain lookup utility
+ A command-line utility for retrieving comprehensive information about domain names.
